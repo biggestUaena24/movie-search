@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} mx-3`}>{children}</body>
+      <body className={`${montserrat.className} mx-3 my-12`}>{children}</body>
     </html>
   );
 }
